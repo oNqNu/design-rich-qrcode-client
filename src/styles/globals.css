@@ -1,0 +1,167 @@
+:root {
+  /* original tokens */
+
+  /* color */
+
+  /* global tokens */
+
+  /* green */
+  --color-green-50: #e7f4ec;
+  --color-green-100: #c4e2cf;
+  --color-green-200: #a0d0b1;
+  --color-green-300: #7abf94;
+  --color-green-400: #5fb27e;
+  --color-green-500: #44a569;
+  --color-green-600: #3d965f;
+  --color-green-700: #358453;
+  --color-green-800: #2f7348;
+  --color-green-900: #255435;
+
+  /* red */
+  --color-red-50: #f9ecf0;
+  --color-red-100: #f3d0d7;
+  --color-red-200: #dd9fa5;
+  --color-red-300: #ce7d83;
+  --color-red-400: #d86268;
+  --color-red-500: #dd5656;
+  --color-red-600: #cd4e53;
+  --color-red-700: #bb464b;
+  --color-red-800: #ad4145;
+  --color-red-900: #9c3b3c;
+
+  /* gray */
+  --color-gray-50: #0d162105;
+  --color-gray-100: #0d16210f;
+  --color-gray-200: #0d16212e;
+  --color-gray-300: #0d162147;
+  --color-gray-400: #0d162159;
+  --color-gray-500: #0d16217a;
+  --color-gray-600: #0d162199;
+  --color-gray-700: #0d1621a1;
+  --color-gray-800: #0d1621b3;
+  --color-gray-900: #0d1621e6;
+
+  /* white */
+  --color-white-50: #ffffff05;
+  --color-white-100: #ffffff0f;
+  --color-white-200: #ffffff2e;
+  --color-white-300: #ffffff47;
+  --color-white-400: #ffffff59;
+  --color-white-500: #ffffff7a;
+  --color-white-600: #ffffff99;
+  --color-white-700: #ffffffa1;
+  --color-white-800: #ffffffb3;
+  --color-white-900: #ffffffff;
+
+  /* alias tokens */
+
+  /* text */
+  --color-text-primary: var(--color-gray-900);
+  --color-text-secondary: var(--color-gray-800);
+  --color-text-tertiary: var(--color-gray-600);
+  --color-text-tertiary-reaction: var(--color-gray-700);
+  --color-text-success: var(--color-green-800);
+  --color-text-danger: var(--color-red-800);
+  --color-text-invert: var(--color-white-900);
+
+  /* surface */
+  --color-surface-primary: var(--color-green-700);
+  --color-surface-primary-reaction: var(--color-green-800);
+  --color-surface-secondary: var(--color-white-900);
+  --color-surface-secondary-reaction: var(--color-gray-50);
+  --color-surface-tertiary: var(--color-gray-50);
+  --color-surface-tertiary-reaction: var(--color-gray-100);
+  --color-surface-quaternary: var(--color-gray-100);
+  --color-surface-quaternary-reaction: var(--color-gray-200);
+  --color-surface-danger: var(--color-red-800);
+  --color-surface-danger-reaction: var(--color-red-900);
+
+  /* header用トークン */
+  --color-surface-header: #fafafb;
+
+  /* border */
+  --color-border-primary: var(--color-green-700);
+  --color-border-danger: var(--color-red-800);
+  --color-border-weak: var(--color-gray-100);
+  --color-border-default: var(--color-gray-200);
+  --color-border-strong: var(--color-gray-300);
+
+  /* background */
+  --color-background-primary: var(--color-white-900);
+
+  /* spacing */
+  --mg-xs: 0.25rem; /* 4px */
+  --mg-s: 0.5rem; /* 8px */
+  --mg-m: 0.75rem; /* 12px */
+  --mg-l: 1rem; /* 16px */
+  --mg-xl: 1.5rem; /* 24px */
+  --mg-2xl: 2rem; /* 32px */
+  --mg-3xl: 3rem; /* 48px */
+
+  /* font-size */
+  --font-size-xxs: 0.625rem; /* 10px */
+  --font-size-xs: 0.75rem; /* 12px */
+  --font-size-s: 0.875rem; /* 14px */
+  --font-size-m: 1rem; /* 16px */
+  --font-size-l: 1.125rem; /* 18px */
+  --font-size-xl: 1.25rem; /* 20px */
+  --font-size-2xl: 1.5rem; /* 24px */
+  --font-size-3xl: 2rem; /* 32px */
+
+  font-family: 'Zen Kaku Gothic New';
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* text */
+    --color-text-primary: var(--color-white-900);
+    --color-text-secondary: var(--color-white-800);
+    --color-text-tertiary: var(--color-white-600);
+    --color-text-tertiary-reaction: var(--color-white-700);
+    --color-text-success: var(--color-green-700);
+    --color-text-danger: var(--color-red-800);
+    --color-text-invert: var(--color-gray-900);
+
+    /* surface */
+    --color-surface-primary: var(--color-green-700);
+    --color-surface-primary-reaction: var(--color-green-800);
+    --color-surface-secondary: var(--color-gray-800);
+    --color-surface-secondary-reaction: var(--color-gray-900);
+    --color-surface-tertiary: var(--color-white-50);
+    --color-surface-tertiary-reaction: var(--color-white-100);
+    --color-surface-quaternary: var(--color-white-100);
+    --color-surface-quaternary-reaction: var(--color-white-200);
+    --color-surface-danger: var(--color-red-800);
+    --color-surface-danger-reaction: var(--color-red-900);
+
+    /* header用トークン */
+    --color-surface-header: #1e2328;
+
+    /* border */
+    --color-border-primary: var(--color-green-700);
+    --color-border-danger: var(--color-red-800);
+    --color-border-weak: var(--color-white-100);
+    --color-border-default: var(--color-white-200);
+    --color-border-strong: var(--color-white-300);
+
+    /* background */
+    --color-background-primary: var(--color-gray-900);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+body {
+  background: #f5f5f5;
+  margin: auto !important;
+  max-width: 1200px;
+}
+
+main {
+  background: var(--color-background-primary);
+  min-height: 100dvh;
+}
