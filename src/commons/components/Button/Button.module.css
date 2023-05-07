@@ -5,6 +5,7 @@
   background-color: var(--color-surface-primary);
   font-size: var(--font-size-s);
   font-weight: 700;
+  font-family: inherit;
   cursor: pointer;
 }
 

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap');
+
 :root {
   /* original tokens */
 
@@ -108,7 +110,7 @@
   --font-size-2xl: 1.5rem; /* 24px */
   --font-size-3xl: 2rem; /* 32px */
 
-  font-family: 'Zen Kaku Gothic New';
+  font-family: 'M PLUS Rounded 1c', sans-serif, 'Zen Kaku Gothic New';
 }
 
 @media (prefers-color-scheme: dark) {
