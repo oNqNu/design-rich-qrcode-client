@@ -48,6 +48,9 @@ devDependencies:
   '@storybook/testing-library':
     specifier: ^0.0.14-next.2
     version: 0.0.14-next.2
+  '@types/css-modules':
+    specifier: ^1.0.2
+    version: 1.0.2
   babel-loader:
     specifier: ^9.1.2
     version: 9.1.2(@babel/core@7.21.8)(webpack@5.81.0)
@@ -2947,6 +2950,10 @@ packages:
     resolution: {integrity: sha512-cdeYyv4KWoEgpBISTxWvqYsVy444DOqehiF3fM3ne10AmJ62RSyNkUnxMJXHQWRQQX2eR94m5y1IZyDwBjV9FQ==}
     dependencies:
       '@types/node': 18.16.3
+    dev: true
+
+  /@types/css-modules@1.0.2:
+    resolution: {integrity: sha512-tyqlt2GtEBdsxJylh78zSxI/kOJK5Iz8Ta4Fxr8KLTP8mD/IgMa84D8EKPS/AWCp+MDoctgJyikrVWY28GKmcg==}
     dev: true
 
   /@types/detect-port@1.3.2:
