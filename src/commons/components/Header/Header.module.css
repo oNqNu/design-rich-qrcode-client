@@ -14,3 +14,7 @@
   font-size: var(--font-size-2xl);
   text-decoration: none;
 }
+
+.header > a:visited {
+  color: var(--color-text-primary);
+}
