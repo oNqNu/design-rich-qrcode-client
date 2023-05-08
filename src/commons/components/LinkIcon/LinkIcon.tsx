@@ -8,19 +8,19 @@ type LinkIconProps = {
   isExternalLink?: boolean;
 };
 
-export const LinkIcon = ({
-  href = '/',
+const LinkIcon = ({
+  href,
   isExternalLink = false,
   children,
-}: LinkIconProps) => {
-  return (
-    <a
-      className={styles['link-icon']}
-      href={href}
-      target={isExternalLink && '_blanks'}
-      rel={isExternalLink && 'noopener noreferrer'}
-    >
-      {children}
-    </a>
-  );
-};
+}: LinkIconProps) => (
+  <a
+    className={styles.linkIcon}
+    href={href}
+    target={isExternalLink ? '_blank' : undefined}
+    rel={isExternalLink ? 'noopener noreferrer' : undefined}
+  >
+    {children}
+  </a>
+);
+
+export default LinkIcon;

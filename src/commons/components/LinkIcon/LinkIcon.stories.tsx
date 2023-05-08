@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkIcon } from './LinkIcon';
+import LinkIcon from './LinkIcon';
 import { GithubIcon } from '../icons/icons/GithubIcon/GithubIcon';
 
 import type { Meta, StoryObj } from '@storybook/react';
