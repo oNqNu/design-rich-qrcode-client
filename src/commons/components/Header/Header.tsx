@@ -7,7 +7,7 @@ type HeaderProps = {};
 const Header = (props: HeaderProps) => {
   return (
     <header className={styles.header}>
-      <h1>Design Rich QR</h1>
+      <a href="/">Design Rich QR</a>
       <LinkIcon href="https://github.com/oNqNu" isExternalLink={true}>
         <GithubIcon size={24} />
       </LinkIcon>
