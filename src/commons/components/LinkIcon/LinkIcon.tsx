@@ -14,7 +14,7 @@ const LinkIcon = ({
   children,
 }: LinkIconProps) => (
   <a
-    className={styles.linkIcon}
+    className={styles['link-icon']}
     href={href}
     target={isExternalLink ? '_blank' : undefined}
     rel={isExternalLink ? 'noopener noreferrer' : undefined}
