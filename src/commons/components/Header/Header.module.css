@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2rem;
+  padding: var(--mg-xl) var(--mg-3xl);
   height: 4rem;
   background-color: var(--color-surface-header);
   position: sticky;
@@ -10,11 +10,20 @@
   left: 0;
 }
 
-.header > a {
+.title-wrapper {
+  padding: var(--mg-m) var(--mg-l);
+  border-radius: 1rem;
+}
+
+.title-wrapper:hover {
+  background-color: var(--color-surface-secondary-reaction);
+}
+
+.title {
   font-size: var(--font-size-2xl);
   text-decoration: none;
 }
 
-.header > a:visited {
+.title:visited {
   color: var(--color-text-primary);
 }
