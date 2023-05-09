@@ -1,3 +1,7 @@
 .link-icon {
   display: flex;
 }
+
+.link-icon:visited {
+  color: var(--color-text-primary);
+}
