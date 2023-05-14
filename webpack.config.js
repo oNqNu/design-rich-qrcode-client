@@ -5,7 +5,7 @@ module.exports = {
   entry: './src/index.tsx',
   entry: './src/index.tsx',
   output: {
-    path: path.join(__dirname, 'dist'),
+    path: path.join(__dirname, 'build'),
     filename: 'main.js',
   },
   module: {
